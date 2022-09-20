@@ -39,3 +39,13 @@ print(course[0:3])
 print(course[1:5])
 print(course[:5])
 
+# formatted strings
+variableName = "John"
+messageExample = f"Hello {variableName}, good morning!"
+
+# print number of characters
+print(len(variableName))
+
+# methods related to string type
+variableName.upper() # it converts the text to uppercase
+variableName.find("o") # it returns the index of the first occurrence of that letter
